@@ -1,4 +1,4 @@
-# Cat Skin Disease Detection with YOLOv11 (TensorFlow Lite for Android)
+<img width="330" height="742" alt="Screenshot 2025-11-04 220011" src="https://github.com/user-attachments/assets/13de7eee-2b1b-40c1-a818-4e64dd6028a5" /># Cat Skin Disease Detection with YOLOv11 (TensorFlow Lite for Android)
 
 > **Optimized for mobile inference on Android devices using TensorFlow Lite + GPU Delegate**  
 > Built for real-time, offline detection of feline skin conditions — no cloud required.
@@ -32,10 +32,13 @@ yolo train model=yolov11n.pt data=cat-skin-disease.yaml epochs=150 imgsz=640 bat
 with the training hyperparameters, it results in a mAP@50 of 0.82174, and mAP@50-95 of 	0.43065
 
 # Training results of Box Precision-Recall curve
-![testing/pred labels](training/BoxPR_curve.png)
+![training/pr-curve](training/BoxPR_curve.png)
 
 # Training result graphs
-![testing/pred labels](training/results.png)
+![training/train-graph](training/results.png)
 
 # Prediction labels (testing)
-![testing/pred labels](training/val_batch2_labels.jpg)
+![training/pred-labels](training/val_batch2_labels.jpg)
+
+# Running Application (testing)
+![training/app](training/livedetect.png)
