@@ -9,8 +9,9 @@
 
 Trained and evaluated using the **Cat Skin Disease** dataset from Roboflow:  
 🔗 [click here](https://universe.roboflow.com/maria-angelica-krgdu/skin-disease-of-cat)
-
-- **1,872 images** across 5 classes:  
+Link to training notebook:
+🔗 [training notebook here](https://colab.research.google.com/drive/1ZXel1a7cSHi875GyyTxr_v-MhQ3-tsYn?usp=sharing)
+- **668 images** across 5 classes:  
 dermatitis, flea_allergy, ringworm, scabies
 - **Split**: 75% train / 25% val / 5% test  
 - **Resolution**: 640×640  
@@ -27,3 +28,4 @@ dermatitis, flea_allergy, ringworm, scabies
 
 
 yolo train model=yolov11n.pt data=cat-skin-disease.yaml epochs=150 imgsz=640 batch=16 optimizer=AdamW
+
