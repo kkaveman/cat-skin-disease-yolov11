@@ -28,8 +28,13 @@ dermatitis, flea_allergy, ringworm, scabies
 
 
 yolo train model=yolov11n.pt data=cat-skin-disease.yaml epochs=150 imgsz=640 batch=16 optimizer=AdamW
+---
+with the training hyperparameters, it results in a mAP@50 of 0.82174, and mAP@50-95 of 	0.43065
 
-# Training results
+# Training results of Box Precision-Recall curve
+![testing/pred labels](training/BoxPR_curve.png)
+
+# Training result graphs
 ![testing/pred labels](training/results.png)
 
 # Prediction labels (testing)
