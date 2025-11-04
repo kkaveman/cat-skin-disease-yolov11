@@ -29,3 +29,4 @@ dermatitis, flea_allergy, ringworm, scabies
 
 yolo train model=yolov11n.pt data=cat-skin-disease.yaml epochs=150 imgsz=640 batch=16 optimizer=AdamW
 
+![Alt text](cat-skin-disease-yolov11/val_batch2_labels.jpg)
