@@ -1,5 +1,3 @@
-<img width="330" height="742" alt="Screenshot 2025-11-04 220011" src="https://github.com/user-attachments/assets/13de7eee-2b1b-40c1-a818-4e64dd6028a5" /># Cat Skin Disease Detection with YOLOv11 (TensorFlow Lite for Android)
-
 > **Optimized for mobile inference on Android devices using TensorFlow Lite + GPU Delegate**  
 > Built for real-time, offline detection of feline skin conditions — no cloud required.
 
