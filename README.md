@@ -8,7 +8,7 @@
 ## 📚 Dataset
 
 Trained and evaluated using the **Cat Skin Disease** dataset from Roboflow:  
-🔗 [https://universe.roboflow.com/your-workspace/cat-skin-disease](https://universe.roboflow.com/your-workspace/cat-skin-disease)
+🔗 [click here](https://universe.roboflow.com/maria-angelica-krgdu/skin-disease-of-cat)
 
 - **1,872 images** across 5 classes:  
   `Flea Allergy Dermatitis`, `Miliary Dermatitis`, `Feline Acne`, `Ringworm`, `Hot Spots`  
